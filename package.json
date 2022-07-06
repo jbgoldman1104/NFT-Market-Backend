@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "Marketplace API",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "migrate-save": "npx prisma migrate save --experimental",
-    "migrate-up": "npx prisma migrate up --experimental && npx prisma generate",
-    "dev": "nodemon server.js --quiet",
-    "postinstall": "npx patch-package",
     "lint": "eslint"
   },
   "repository": {
