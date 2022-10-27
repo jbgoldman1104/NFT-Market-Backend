@@ -8,7 +8,3 @@ const app = require("./app");
  * and server is started.
  */
 app.listen(config.port, () => {
-  console.log("Server running on", config.port);
-});
-
-module.exports = app; // for testing
